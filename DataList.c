@@ -96,7 +96,11 @@ void dl_remove(DataList *dl, int n) {
     } else if (n == 0) {
         toFree = dl->first;
         dl->first = dl_ref->next;
-        dl->first->prev = NULL;
+	if (dl->first != NULL)
+        	dl->first->prev = NULL;
+	else {
+		dl->last = NULL;
+	}
         dl->size -= 1;
         /* free memory, which we don't need anymore */
         free(toFree);

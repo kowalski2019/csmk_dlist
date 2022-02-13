@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/csmk_list.dir/main.c.o CMakeFiles/csmk_list.dir/DataList.c.o CMakeFiles/csmk_list.dir/linkedList.c.o CMakeFiles/csmk_list.dir/doubleLinkedList.c.o CMakeFiles/csmk_list.dir/lists_test.c.o  -o csmk_list 
