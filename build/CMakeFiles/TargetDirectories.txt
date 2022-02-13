@@ -1,0 +1,3 @@
+/home/kowalski/C_Laboratory/csmk_dlist/build/CMakeFiles/rebuild_cache.dir
+/home/kowalski/C_Laboratory/csmk_dlist/build/CMakeFiles/edit_cache.dir
+/home/kowalski/C_Laboratory/csmk_dlist/build/CMakeFiles/csmk_list.dir
