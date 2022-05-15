@@ -1,19 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/kowalski/C_Laboratory/csmk_dlist/DataList.c" "/home/kowalski/C_Laboratory/csmk_dlist/build/CMakeFiles/csmk_list.dir/DataList.c.o"
-  "/home/kowalski/C_Laboratory/csmk_dlist/doubleLinkedList.c" "/home/kowalski/C_Laboratory/csmk_dlist/build/CMakeFiles/csmk_list.dir/doubleLinkedList.c.o"
-  "/home/kowalski/C_Laboratory/csmk_dlist/linkedList.c" "/home/kowalski/C_Laboratory/csmk_dlist/build/CMakeFiles/csmk_list.dir/linkedList.c.o"
-  "/home/kowalski/C_Laboratory/csmk_dlist/lists_test.c" "/home/kowalski/C_Laboratory/csmk_dlist/build/CMakeFiles/csmk_list.dir/lists_test.c.o"
-  "/home/kowalski/C_Laboratory/csmk_dlist/main.c" "/home/kowalski/C_Laboratory/csmk_dlist/build/CMakeFiles/csmk_list.dir/main.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist/DataList.c" "CMakeFiles/csmk_list.dir/DataList.c.o" "gcc" "CMakeFiles/csmk_list.dir/DataList.c.o.d"
+  "/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist/doubleLinkedList.c" "CMakeFiles/csmk_list.dir/doubleLinkedList.c.o" "gcc" "CMakeFiles/csmk_list.dir/doubleLinkedList.c.o.d"
+  "/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist/linkedList.c" "CMakeFiles/csmk_list.dir/linkedList.c.o" "gcc" "CMakeFiles/csmk_list.dir/linkedList.c.o.d"
+  "/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist/lists_test.c" "CMakeFiles/csmk_list.dir/lists_test.c.o" "gcc" "CMakeFiles/csmk_list.dir/lists_test.c.o.d"
+  "/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist/main.c" "CMakeFiles/csmk_list.dir/main.c.o" "gcc" "CMakeFiles/csmk_list.dir/main.c.o.d"
   )
 
 # Targets to which this target links.

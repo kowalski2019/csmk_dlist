@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(csmk_list C)
+project(csmk_dlist C)
 
 set(CMAKE_C_STANDARD 99)
 

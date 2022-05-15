@@ -1,9 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/csmk_list.dir/DataList.c.o"
+  "CMakeFiles/csmk_list.dir/DataList.c.o.d"
   "CMakeFiles/csmk_list.dir/doubleLinkedList.c.o"
+  "CMakeFiles/csmk_list.dir/doubleLinkedList.c.o.d"
   "CMakeFiles/csmk_list.dir/linkedList.c.o"
+  "CMakeFiles/csmk_list.dir/linkedList.c.o.d"
   "CMakeFiles/csmk_list.dir/lists_test.c.o"
+  "CMakeFiles/csmk_list.dir/lists_test.c.o.d"
   "CMakeFiles/csmk_list.dir/main.c.o"
+  "CMakeFiles/csmk_list.dir/main.c.o.d"
   "csmk_list"
   "csmk_list.pdb"
 )

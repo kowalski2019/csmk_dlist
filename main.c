@@ -3,6 +3,18 @@
 #include <time.h>
 #include "DataList.h"
 
+DEFINE_NEW_LIST_DATA_FUNCTION(int)
+DEFINE_DL_GET_FUNCTION(int)
+DEFINE_DL_APPEND_FUNCTION(int)
+DEFINE_DL_FASTER_APPEND_FUNCTION(int)
+DEFINE_DL_INSERT_FUNCTION(int)
+DEFINE_DL_PUSH_FUNCTION(int)
+DEFINE_DL_TOP_FUNCTION(int)
+DEFINE_DL_PEEK_FUNCTION(int)
+DEFINE_DL_ENQUEUE_FUNCTION(int)
+DEFINE_DL_DEQUEUE_FUNCTION(int)
+DEFINE_DL_FIRST_FUNCTION(int)
+
 void test_DataList(void) {
 	DataList *dl = dl_init();
 	char c ;
@@ -48,14 +60,10 @@ void test_DataList(void) {
 
 int main() {
     srand( (unsigned)time(NULL) ); //Initialize the random number generator
-    //test_DataList();
+    test_DataList();
     DataList *dl = dl_init();
     int a;
     dl_push(dl, 23);
-    dl_print(dl);
-    dl_pop(dl, &a);
-    dl_print(dl);
-    printf("%d \n", a);
     return 0;
 }
 

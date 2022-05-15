@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "csmk_list"
+			"value" : "csmk_dlist"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -972,6 +972,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "csmk_dlist_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist/cmake-build-debug"
+		},
+		{
+			"name" : "csmk_dlist_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "csmk_dlist_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist"
 		},
 		{
 			"name" : "csmk_list_BINARY_DIR",
