@@ -19,8 +19,12 @@
         ListElement *last; \
     } DataList; \
 
-DECLARE_LIST_ELEMENT_STRUCT(int)
+
+#include "DataListType.h"
+
+DECLARE_LIST_ELEMENT_STRUCT(dl_type)
 DECLARE_DATALIST_STRUCT
+
 
 //ListElement *newListData(int value);
 #define DEFINE_NEW_LIST_DATA_FUNCTION(dataType) \
@@ -122,11 +126,21 @@ void dl_get(ListElement *dl_el, int n, dataType *el) { \
     dl->size += 1; \
 }
 
-void dl_remove(DataList *dl, int);
+
+void dl_remove_at(DataList *dl, int);
+#define DEFINE_DL_REMOVE(dataType) \
+    void dl_remove(DataList *dl, dataType){ \
+    }
+
+#define DEFINE_DL_INDEX_OF(dataType) \
+    int dl_index_of(DataList *dl, dataType){ \
+        return -1                                 \
+    }\
 
 void dl_clear(DataList *dl);
 
 void dl_print(DataList *dl);
+
 
 /* STACK UTILITY */
 
@@ -144,7 +158,7 @@ void dl_print(DataList *dl);
             return false; \
         } \
         dl_get(dl->first, dl->size - 1, el); \
-        dl_remove(dl, dl->size - 1); \
+        dl_remove_at(dl, dl->size - 1); \
         return true; \
 }
 
@@ -169,24 +183,37 @@ void dl_print(DataList *dl);
 
 // bool dl_dequeue(DataList *dl, int *el);
 #define DEFINE_DL_DEQUEUE_FUNCTION(dataType) \
-    bool dl_dequeue(DataList *dl, int *el) { \
+    bool dl_dequeue(DataList *dl, dataType *el) { \
         if (dl->size == 0) { \
             return false; \
         } \
         *el = dl->first->data; \
-        dl_remove(dl, 0); \
+        dl_remove_at(dl, 0); \
         return true; \
 }
 
 //bool dl_first(DataList *dl, int *el);
 #define DEFINE_DL_FIRST_FUNCTION(dataType) \
-    bool dl_first(DataList *dl, int *el) { \
+    bool dl_first(DataList *dl, dataType *el) { \
         if (dl->size == 0) { \
             return false; \
         } \
         *el = dl->first->data; \
         return true; \
 }
+
+#define APPLY_DATATYPE(dataType) \
+    DEFINE_NEW_LIST_DATA_FUNCTION(dataType) \
+    DEFINE_DL_GET_FUNCTION(dataType) \
+    DEFINE_DL_APPEND_FUNCTION(dataType) \
+    DEFINE_DL_FASTER_APPEND_FUNCTION(dataType) \
+    DEFINE_DL_INSERT_FUNCTION(dataType) \
+    DEFINE_DL_PUSH_FUNCTION(dataType) \
+    DEFINE_DL_TOP_FUNCTION(dataType) \
+    DEFINE_DL_PEEK_FUNCTION(dataType) \
+    DEFINE_DL_ENQUEUE_FUNCTION(dataType) \
+    DEFINE_DL_DEQUEUE_FUNCTION(dataType) \
+    DEFINE_DL_FIRST_FUNCTION(dataType) \
 
 
 #endif /* DATALIST_H */

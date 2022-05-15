@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "csmk_list"
+			"path" : "csmk_list.exe"
+		},
+		{
+			"path" : "csmk_list.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -72,12 +75,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "csmk_list",
-	"nameOnDisk" : "csmk_list",
+	"nameOnDisk" : "csmk_list.exe",
 	"paths" : 
 	{
 		"build" : ".",

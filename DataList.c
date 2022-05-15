@@ -12,7 +12,7 @@ int dl_size(DataList *dl) {
     return dl->size;
 }
 
-void dl_remove(DataList *dl, int n) {
+void dl_remove_at(DataList *dl, int n) {
     int i = 0;
     ListElement *dl_ref = dl->first;
     ListElement *toFree;
