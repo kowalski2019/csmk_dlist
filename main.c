@@ -6,7 +6,6 @@
 
 APPLY_DATATYPE(int)
 
-
 void test_DataList(void) {
 	DataList *dl = dl_init();
 	char c ;
@@ -53,9 +52,7 @@ void test_DataList(void) {
 int main() {
     srand( (unsigned)time(NULL) ); //Initialize the random number generator
     test_DataList();
-    DataList *dl = dl_init();
-    int a;
-    dl_push(dl, 23);
+    //DataList *dl = dl_init();
     return 0;
 }
 
