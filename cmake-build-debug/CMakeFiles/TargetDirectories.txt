@@ -1,3 +1,0 @@
-C:/Users/csmk/Laboratory_C/csmk_dlist/cmake-build-debug/CMakeFiles/csmk_list.dir
-C:/Users/csmk/Laboratory_C/csmk_dlist/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/csmk/Laboratory_C/csmk_dlist/cmake-build-debug/CMakeFiles/rebuild_cache.dir
