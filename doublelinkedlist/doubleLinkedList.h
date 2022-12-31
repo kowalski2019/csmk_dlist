@@ -1,10 +1,21 @@
+/**
+  ******************************************************************************
+  * @file    	DoubleLinkedList.h
+  * @author		Claude Stephane M. Kouame
+  * @version 	V1.0
+  * @date		Oct 10, 2021
+  * @brief
+  * feel free to use it as you wish ;-)
+  ******************************************************************************
+*/
+
 #ifndef DOUBLELINKEDLIST_H
 #define DOUBLELINKEDLIST_H
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
-#include "ListElement.h"
+#include "../ListElement.h"
 
 typedef struct doublelinkedlist
 {

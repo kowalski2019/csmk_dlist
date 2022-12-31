@@ -1,5 +1,5 @@
-#include "linkedList.h"
-#include "doubleLinkedList.h"
+#include "linkedlist/linkedList.h"
+#include "doublelinkedlist/doubleLinkedList.h"
 
 void linkedList_test(void);
 void doubleLinkedList_test(void);

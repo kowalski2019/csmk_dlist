@@ -8,10 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/csmk/Laboratory_C/csmk_dlist/DataList.c" "CMakeFiles/csmk_list.dir/DataList.c.obj" "gcc" "CMakeFiles/csmk_list.dir/DataList.c.obj.d"
-  "C:/Users/csmk/Laboratory_C/csmk_dlist/doubleLinkedList.c" "CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj" "gcc" "CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj.d"
-  "C:/Users/csmk/Laboratory_C/csmk_dlist/linkedList.c" "CMakeFiles/csmk_list.dir/linkedList.c.obj" "gcc" "CMakeFiles/csmk_list.dir/linkedList.c.obj.d"
-  "C:/Users/csmk/Laboratory_C/csmk_dlist/lists_test.c" "CMakeFiles/csmk_list.dir/lists_test.c.obj" "gcc" "CMakeFiles/csmk_list.dir/lists_test.c.obj.d"
+  "C:/Users/csmk/Laboratory_C/csmk_dlist/dlist_v1/DataList_v1.c" "CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj" "gcc" "CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj.d"
+  "C:/Users/csmk/Laboratory_C/csmk_dlist/dlist_v1/dlist_types.c" "CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj" "gcc" "CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj.d"
   "C:/Users/csmk/Laboratory_C/csmk_dlist/main.c" "CMakeFiles/csmk_list.dir/main.c.obj" "gcc" "CMakeFiles/csmk_list.dir/main.c.obj.d"
   )
 

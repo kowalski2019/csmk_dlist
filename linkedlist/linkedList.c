@@ -1,3 +1,13 @@
+/**
+  ******************************************************************************
+  * @file    	LinkedList.c
+  * @author		Claude Stephane M. Kouame
+  * @version 	V1.0
+  * @date		Oct 10, 2021
+  * @brief
+  * feel free to use it as you wish ;-)
+  ******************************************************************************
+*/
 #include "linkedList.h"
 
 /**
@@ -10,13 +20,6 @@ LinkedList *ll_init(int value)
 {
     LinkedList *ll = malloc(sizeof(LinkedList));
     ll->val = value;
-    /*ll->ll_append = ll_append;
-    //ll->ll_clear = ll_clear;
-    ll->ll_get = ll_get;
-    //ll->ll_insert = ll_insert;
-    //ll->ll_remove = ll_remove;
-    ll->ll_size = ll_size;
-    //ll->ll_print = ll_print*/
     return ll;
 }
 

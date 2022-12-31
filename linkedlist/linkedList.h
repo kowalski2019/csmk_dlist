@@ -1,3 +1,13 @@
+/**
+  ******************************************************************************
+  * @file    	LinkedList.h
+  * @author		Claude Stephane M. Kouame
+  * @version 	V1.0
+  * @date		Oct 10, 2021
+  * @brief
+  * feel free to use it as you wish ;-)
+  ******************************************************************************
+*/
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
@@ -8,14 +18,6 @@ typedef struct linkedList
 {
     int val;
     struct linkedList *next;
-    int ll_size;
-    int ll_get;
-    /*void ll_append;
-    void ll_insert;
-    void ll_remove;
-    void ll_clear;
-    void ll_print;*/
-
 } LinkedList;
 
 

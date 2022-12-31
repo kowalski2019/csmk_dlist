@@ -1,3 +1,14 @@
+/**
+  ******************************************************************************
+  * @file    	DataList.c
+  * @author		Claude Stephane M. Kouame
+  * @version 	V1.0
+  * @date		Oct 10, 2021
+  * @brief
+  * feel free to use it as you wish ;-)
+  ******************************************************************************
+*/
+
 #include "DataList.h"
 
 DataList *dl_init(void) {
@@ -49,6 +60,7 @@ void dl_remove_at(DataList *dl, int n) {
     free(toFree);
 }
 
+/*
 void dl_print(DataList *dl) {
     ListElement *first = dl->first;
     ListElement *last = dl->last;
@@ -75,10 +87,11 @@ void dl_print(DataList *dl) {
     }
     printf("->(NULL)\n");
 
-    /* free memory, which we don't need anymore */
+    // free memory, which we don't need anymore
     free(first);
     free(last);
 }
+*/
 
 void dl_clear(DataList *dl) {
     ListElement *toFree;

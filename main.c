@@ -1,15 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "DataList.h"
+#include <stdint.h>
+#include <sys/types.h>
+#include "list/list.h"
+#include "dlist_v1/DataList_v1.h"
+#include "dlist_v1/dlist_types.h"
 
 
-APPLY_DATATYPE(int)
+
 
 void test_DataList(void) {
-	DataList *dl = dl_init();
+	DataList dl = dl_init();
 	char c ;
-	int el;
+	DLIST_Integer el;
 	while(1){
 		dl_print(dl);
 		printf("\n");
@@ -24,22 +28,23 @@ void test_DataList(void) {
 		printf("dl_size:= %d \n", dl->size);
 		printf("enter option:  ");
 		scanf("%c", &c);
+        DLIST_Integer data = dlist_new_integer(rand() % 100);
 		if (c == 'a') {
-			dl_push(dl, rand() % 100);
+			dl_push(dl, (void*)data);
 		} else if (c == 'b') {
-			dl_pop(dl, &el);
-			printf("%d \n", el);
+			dl_pop(dl, (void**)&el);
+			printf("%d \n", el->value);
 		} else if (c == 'c') {
-			dl_peek(dl, &el);
-			printf("%d \n", el);
+			dl_peek(dl, (void**)&el);
+			printf("%d \n", el->value);
 		} else if (c == 'd') {
-			dl_enqueue(dl, rand() % 100);
+			dl_enqueue(dl, (void*)data);
 		} else if (c == 'e') {
-			dl_dequeue(dl, &el);
-			printf("%d \n", el);
+			dl_dequeue(dl, (void**)&el);
+			printf("%d \n", el->value);
 		} else if (c == 'f') {
-			dl_first(dl, &el);
-			printf("%d", el);
+			dl_first(dl, (void**)&el);
+			printf("%d", el->value);
 		} else if (c == 'q'){
 			break;
 		}else{
@@ -49,10 +54,32 @@ void test_DataList(void) {
 	}
 }
 
+
 int main() {
     srand( (unsigned)time(NULL) ); //Initialize the random number generator
     test_DataList();
-    //DataList *dl = dl_init();
+    /*DataList  list = dl_init();
+    DLIST_Integer data = dlist_new_integer(65);
+    DLIST_Integer data1 = dlist_new_integer(-7);
+    DLIST_Integer data2 = dlist_new_integer(100);
+    DLIST_Integer data3 = dlist_new_integer(2);
+    DLIST_Integer data4 = dlist_new_integer(3);
+
+    dl_append(list, data);
+    dl_append(list, data1);
+    dl_append(list, data2);
+    dl_append(list, data3);
+    dl_append(list, data4);
+
+    int res = dl_index_of(list, (void*)data2);
+    printf("index %d \n", res);
+
+    dl_print(list);
+
+    dl_remove(list, (void*)data2);
+
+    dl_print(list);*/
+
     return 0;
 }
 

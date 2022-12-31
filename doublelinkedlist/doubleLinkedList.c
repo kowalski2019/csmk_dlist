@@ -1,3 +1,13 @@
+/**
+  ******************************************************************************
+  * @file    	DoubleLinkedList.c
+  * @author		Claude Stephane M. Kouame
+  * @version 	V1.0
+  * @date		Oct 10, 2021
+  * @brief
+  * feel free to use it as you wish ;-)
+  ******************************************************************************
+*/
 #include "doubleLinkedList.h"
 
 /**

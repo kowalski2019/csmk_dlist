@@ -72,93 +72,61 @@ CMakeFiles/csmk_list.dir/main.c.obj: CMakeFiles/csmk_list.dir/flags.make
 CMakeFiles/csmk_list.dir/main.c.obj: ../main.c
 CMakeFiles/csmk_list.dir/main.c.obj: CMakeFiles/csmk_list.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csmk\Laboratory_C\csmk_dlist\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/csmk_list.dir/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/csmk_list.dir/main.c.obj -MF CMakeFiles\csmk_list.dir\main.c.obj.d -o CMakeFiles\csmk_list.dir\main.c.obj -c C:\Users\csmk\Laboratory_C\csmk_dlist\main.c
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/csmk_list.dir/main.c.obj -MF CMakeFiles\csmk_list.dir\main.c.obj.d -o CMakeFiles\csmk_list.dir\main.c.obj -c C:\Users\csmk\Laboratory_C\csmk_dlist\main.c
 
 CMakeFiles/csmk_list.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csmk_list.dir/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csmk\Laboratory_C\csmk_dlist\main.c > CMakeFiles\csmk_list.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csmk\Laboratory_C\csmk_dlist\main.c > CMakeFiles\csmk_list.dir\main.c.i
 
 CMakeFiles/csmk_list.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csmk_list.dir/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csmk\Laboratory_C\csmk_dlist\main.c -o CMakeFiles\csmk_list.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csmk\Laboratory_C\csmk_dlist\main.c -o CMakeFiles\csmk_list.dir\main.c.s
 
-CMakeFiles/csmk_list.dir/DataList.c.obj: CMakeFiles/csmk_list.dir/flags.make
-CMakeFiles/csmk_list.dir/DataList.c.obj: ../DataList.c
-CMakeFiles/csmk_list.dir/DataList.c.obj: CMakeFiles/csmk_list.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csmk\Laboratory_C\csmk_dlist\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/csmk_list.dir/DataList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/csmk_list.dir/DataList.c.obj -MF CMakeFiles\csmk_list.dir\DataList.c.obj.d -o CMakeFiles\csmk_list.dir\DataList.c.obj -c C:\Users\csmk\Laboratory_C\csmk_dlist\DataList.c
+CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj: CMakeFiles/csmk_list.dir/flags.make
+CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj: ../dlist_v1/DataList_v1.c
+CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj: CMakeFiles/csmk_list.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csmk\Laboratory_C\csmk_dlist\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj -MF CMakeFiles\csmk_list.dir\dlist_v1\DataList_v1.c.obj.d -o CMakeFiles\csmk_list.dir\dlist_v1\DataList_v1.c.obj -c C:\Users\csmk\Laboratory_C\csmk_dlist\dlist_v1\DataList_v1.c
 
-CMakeFiles/csmk_list.dir/DataList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csmk_list.dir/DataList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csmk\Laboratory_C\csmk_dlist\DataList.c > CMakeFiles\csmk_list.dir\DataList.c.i
+CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csmk\Laboratory_C\csmk_dlist\dlist_v1\DataList_v1.c > CMakeFiles\csmk_list.dir\dlist_v1\DataList_v1.c.i
 
-CMakeFiles/csmk_list.dir/DataList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csmk_list.dir/DataList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csmk\Laboratory_C\csmk_dlist\DataList.c -o CMakeFiles\csmk_list.dir\DataList.c.s
+CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csmk\Laboratory_C\csmk_dlist\dlist_v1\DataList_v1.c -o CMakeFiles\csmk_list.dir\dlist_v1\DataList_v1.c.s
 
-CMakeFiles/csmk_list.dir/linkedList.c.obj: CMakeFiles/csmk_list.dir/flags.make
-CMakeFiles/csmk_list.dir/linkedList.c.obj: ../linkedList.c
-CMakeFiles/csmk_list.dir/linkedList.c.obj: CMakeFiles/csmk_list.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csmk\Laboratory_C\csmk_dlist\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/csmk_list.dir/linkedList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/csmk_list.dir/linkedList.c.obj -MF CMakeFiles\csmk_list.dir\linkedList.c.obj.d -o CMakeFiles\csmk_list.dir\linkedList.c.obj -c C:\Users\csmk\Laboratory_C\csmk_dlist\linkedList.c
+CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj: CMakeFiles/csmk_list.dir/flags.make
+CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj: ../dlist_v1/dlist_types.c
+CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj: CMakeFiles/csmk_list.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csmk\Laboratory_C\csmk_dlist\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj -MF CMakeFiles\csmk_list.dir\dlist_v1\dlist_types.c.obj.d -o CMakeFiles\csmk_list.dir\dlist_v1\dlist_types.c.obj -c C:\Users\csmk\Laboratory_C\csmk_dlist\dlist_v1\dlist_types.c
 
-CMakeFiles/csmk_list.dir/linkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csmk_list.dir/linkedList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csmk\Laboratory_C\csmk_dlist\linkedList.c > CMakeFiles\csmk_list.dir\linkedList.c.i
+CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csmk\Laboratory_C\csmk_dlist\dlist_v1\dlist_types.c > CMakeFiles\csmk_list.dir\dlist_v1\dlist_types.c.i
 
-CMakeFiles/csmk_list.dir/linkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csmk_list.dir/linkedList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csmk\Laboratory_C\csmk_dlist\linkedList.c -o CMakeFiles\csmk_list.dir\linkedList.c.s
-
-CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj: CMakeFiles/csmk_list.dir/flags.make
-CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj: ../doubleLinkedList.c
-CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj: CMakeFiles/csmk_list.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csmk\Laboratory_C\csmk_dlist\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj -MF CMakeFiles\csmk_list.dir\doubleLinkedList.c.obj.d -o CMakeFiles\csmk_list.dir\doubleLinkedList.c.obj -c C:\Users\csmk\Laboratory_C\csmk_dlist\doubleLinkedList.c
-
-CMakeFiles/csmk_list.dir/doubleLinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csmk_list.dir/doubleLinkedList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csmk\Laboratory_C\csmk_dlist\doubleLinkedList.c > CMakeFiles\csmk_list.dir\doubleLinkedList.c.i
-
-CMakeFiles/csmk_list.dir/doubleLinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csmk_list.dir/doubleLinkedList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csmk\Laboratory_C\csmk_dlist\doubleLinkedList.c -o CMakeFiles\csmk_list.dir\doubleLinkedList.c.s
-
-CMakeFiles/csmk_list.dir/lists_test.c.obj: CMakeFiles/csmk_list.dir/flags.make
-CMakeFiles/csmk_list.dir/lists_test.c.obj: ../lists_test.c
-CMakeFiles/csmk_list.dir/lists_test.c.obj: CMakeFiles/csmk_list.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csmk\Laboratory_C\csmk_dlist\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/csmk_list.dir/lists_test.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/csmk_list.dir/lists_test.c.obj -MF CMakeFiles\csmk_list.dir\lists_test.c.obj.d -o CMakeFiles\csmk_list.dir\lists_test.c.obj -c C:\Users\csmk\Laboratory_C\csmk_dlist\lists_test.c
-
-CMakeFiles/csmk_list.dir/lists_test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csmk_list.dir/lists_test.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csmk\Laboratory_C\csmk_dlist\lists_test.c > CMakeFiles\csmk_list.dir\lists_test.c.i
-
-CMakeFiles/csmk_list.dir/lists_test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csmk_list.dir/lists_test.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csmk\Laboratory_C\csmk_dlist\lists_test.c -o CMakeFiles\csmk_list.dir\lists_test.c.s
+CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csmk\Laboratory_C\csmk_dlist\dlist_v1\dlist_types.c -o CMakeFiles\csmk_list.dir\dlist_v1\dlist_types.c.s
 
 # Object files for target csmk_list
 csmk_list_OBJECTS = \
 "CMakeFiles/csmk_list.dir/main.c.obj" \
-"CMakeFiles/csmk_list.dir/DataList.c.obj" \
-"CMakeFiles/csmk_list.dir/linkedList.c.obj" \
-"CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj" \
-"CMakeFiles/csmk_list.dir/lists_test.c.obj"
+"CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj" \
+"CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj"
 
 # External object files for target csmk_list
 csmk_list_EXTERNAL_OBJECTS =
 
 csmk_list.exe: CMakeFiles/csmk_list.dir/main.c.obj
-csmk_list.exe: CMakeFiles/csmk_list.dir/DataList.c.obj
-csmk_list.exe: CMakeFiles/csmk_list.dir/linkedList.c.obj
-csmk_list.exe: CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj
-csmk_list.exe: CMakeFiles/csmk_list.dir/lists_test.c.obj
+csmk_list.exe: CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj
+csmk_list.exe: CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj
 csmk_list.exe: CMakeFiles/csmk_list.dir/build.make
 csmk_list.exe: CMakeFiles/csmk_list.dir/linklibs.rsp
 csmk_list.exe: CMakeFiles/csmk_list.dir/objects1.rsp
 csmk_list.exe: CMakeFiles/csmk_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\csmk\Laboratory_C\csmk_dlist\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable csmk_list.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\csmk\Laboratory_C\csmk_dlist\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable csmk_list.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\csmk_list.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

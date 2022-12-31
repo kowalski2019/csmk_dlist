@@ -128,101 +128,53 @@ csmk_list/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/build
 .PHONY : csmk_list/fast
 
-DataList.obj: DataList.c.obj
-.PHONY : DataList.obj
+dlist_v1/DataList_v1.obj: dlist_v1/DataList_v1.c.obj
+.PHONY : dlist_v1/DataList_v1.obj
 
 # target to build an object file
-DataList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/DataList.c.obj
-.PHONY : DataList.c.obj
+dlist_v1/DataList_v1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.obj
+.PHONY : dlist_v1/DataList_v1.c.obj
 
-DataList.i: DataList.c.i
-.PHONY : DataList.i
+dlist_v1/DataList_v1.i: dlist_v1/DataList_v1.c.i
+.PHONY : dlist_v1/DataList_v1.i
 
 # target to preprocess a source file
-DataList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/DataList.c.i
-.PHONY : DataList.c.i
+dlist_v1/DataList_v1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.i
+.PHONY : dlist_v1/DataList_v1.c.i
 
-DataList.s: DataList.c.s
-.PHONY : DataList.s
+dlist_v1/DataList_v1.s: dlist_v1/DataList_v1.c.s
+.PHONY : dlist_v1/DataList_v1.s
 
 # target to generate assembly for a file
-DataList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/DataList.c.s
-.PHONY : DataList.c.s
+dlist_v1/DataList_v1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/dlist_v1/DataList_v1.c.s
+.PHONY : dlist_v1/DataList_v1.c.s
 
-doubleLinkedList.obj: doubleLinkedList.c.obj
-.PHONY : doubleLinkedList.obj
+dlist_v1/dlist_types.obj: dlist_v1/dlist_types.c.obj
+.PHONY : dlist_v1/dlist_types.obj
 
 # target to build an object file
-doubleLinkedList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/doubleLinkedList.c.obj
-.PHONY : doubleLinkedList.c.obj
+dlist_v1/dlist_types.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.obj
+.PHONY : dlist_v1/dlist_types.c.obj
 
-doubleLinkedList.i: doubleLinkedList.c.i
-.PHONY : doubleLinkedList.i
-
-# target to preprocess a source file
-doubleLinkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/doubleLinkedList.c.i
-.PHONY : doubleLinkedList.c.i
-
-doubleLinkedList.s: doubleLinkedList.c.s
-.PHONY : doubleLinkedList.s
-
-# target to generate assembly for a file
-doubleLinkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/doubleLinkedList.c.s
-.PHONY : doubleLinkedList.c.s
-
-linkedList.obj: linkedList.c.obj
-.PHONY : linkedList.obj
-
-# target to build an object file
-linkedList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/linkedList.c.obj
-.PHONY : linkedList.c.obj
-
-linkedList.i: linkedList.c.i
-.PHONY : linkedList.i
+dlist_v1/dlist_types.i: dlist_v1/dlist_types.c.i
+.PHONY : dlist_v1/dlist_types.i
 
 # target to preprocess a source file
-linkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/linkedList.c.i
-.PHONY : linkedList.c.i
+dlist_v1/dlist_types.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.i
+.PHONY : dlist_v1/dlist_types.c.i
 
-linkedList.s: linkedList.c.s
-.PHONY : linkedList.s
-
-# target to generate assembly for a file
-linkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/linkedList.c.s
-.PHONY : linkedList.c.s
-
-lists_test.obj: lists_test.c.obj
-.PHONY : lists_test.obj
-
-# target to build an object file
-lists_test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/lists_test.c.obj
-.PHONY : lists_test.c.obj
-
-lists_test.i: lists_test.c.i
-.PHONY : lists_test.i
-
-# target to preprocess a source file
-lists_test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/lists_test.c.i
-.PHONY : lists_test.c.i
-
-lists_test.s: lists_test.c.s
-.PHONY : lists_test.s
+dlist_v1/dlist_types.s: dlist_v1/dlist_types.c.s
+.PHONY : dlist_v1/dlist_types.s
 
 # target to generate assembly for a file
-lists_test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/lists_test.c.s
-.PHONY : lists_test.c.s
+dlist_v1/dlist_types.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csmk_list.dir\build.make CMakeFiles/csmk_list.dir/dlist_v1/dlist_types.c.s
+.PHONY : dlist_v1/dlist_types.c.s
 
 main.obj: main.c.obj
 .PHONY : main.obj
@@ -257,18 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... csmk_list
-	@echo ... DataList.obj
-	@echo ... DataList.i
-	@echo ... DataList.s
-	@echo ... doubleLinkedList.obj
-	@echo ... doubleLinkedList.i
-	@echo ... doubleLinkedList.s
-	@echo ... linkedList.obj
-	@echo ... linkedList.i
-	@echo ... linkedList.s
-	@echo ... lists_test.obj
-	@echo ... lists_test.i
-	@echo ... lists_test.s
+	@echo ... dlist_v1/DataList_v1.obj
+	@echo ... dlist_v1/DataList_v1.i
+	@echo ... dlist_v1/DataList_v1.s
+	@echo ... dlist_v1/dlist_types.obj
+	@echo ... dlist_v1/dlist_types.i
+	@echo ... dlist_v1/dlist_types.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
