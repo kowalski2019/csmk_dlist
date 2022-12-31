@@ -1,3 +1,0 @@
-/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist/build/CMakeFiles/csmk_list.dir
-/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist/build/CMakeFiles/edit_cache.dir
-/home/csmk/Claude/C_Laboratory/csmk_c_lib/csmk_dlist/build/CMakeFiles/rebuild_cache.dir
