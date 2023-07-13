@@ -4,4 +4,9 @@ cmake-build-debug/*
 build/*
 *.sh
 test
+*.o
+*.a
+*.s
+tst/test
+
 
