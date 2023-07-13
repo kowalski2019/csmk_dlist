@@ -12,6 +12,8 @@
 #ifndef DL_TYPE_H
 #define DL_TYPE_H
 
+#ifndef dl_type
 #define dl_type void*
+#endif
 
 #endif /* DL_TYPE_H */

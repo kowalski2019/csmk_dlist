@@ -60,39 +60,6 @@ void dl_remove_at(DataList *dl, int n) {
     free(toFree);
 }
 
-/*
-void dl_print(DataList *dl) {
-    ListElement *first = dl->first;
-    ListElement *last = dl->last;
-    int i = 0;
-    printf("\nTraversal in next direction \n");
-    while (first != NULL) {
-        if (i == 0)
-            printf("head->(%d)", first->data);
-        else
-            printf("->(%d)", first->data);
-        first = first->next;
-        i += 1;
-    }
-    printf("->(NULL)\n");
-    printf("\nTraversal in prev direction \n");
-    i = 0;
-    while (last != NULL) {
-        if (i == 0)
-            printf("head->(%d)", last->data);
-        else
-            printf("->(%d)", last->data);
-        last = last->prev;
-        i += 1;
-    }
-    printf("->(NULL)\n");
-
-    // free memory, which we don't need anymore
-    free(first);
-    free(last);
-}
-*/
-
 void dl_clear(DataList *dl) {
     ListElement *toFree;
     ListElement *dl_el = dl->first;

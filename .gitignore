@@ -3,4 +3,5 @@
 cmake-build-debug/*
 build/*
 *.sh
+test
 

@@ -31,7 +31,7 @@
     } DataList; \
 
 
-#include "data_list_type.h"
+#include "dlist_type.h"
 
 DECLARE_LIST_ELEMENT_STRUCT(dl_type)
 DECLARE_DATALIST_STRUCT

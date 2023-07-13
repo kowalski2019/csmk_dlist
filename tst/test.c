@@ -1,17 +1,52 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
+#define dl_type int
+
+#include "dlist_type.h"
+
 #include "csmkdlist.h"
 
-APPLY_DATATYPE(int);
+APPLY_DATATYPE(int)
+
+void dl_print(DataList *dl) {
+    ListElement *first = dl->first;
+    ListElement *last = dl->last;
+    int i = 0;
+    printf("\nTraversal in next direction \n");
+    while (first != NULL) {
+        if (i == 0)
+            printf("head->(%d)", first->data);
+        else
+            printf("->(%d)", first->data);
+        first = first->next;
+        i += 1;
+    }
+    printf("->(NULL)\n");
+    printf("\nTraversal in prev direction \n");
+    i = 0;
+    while (last != NULL) {
+        if (i == 0)
+            printf("head->(%d)", last->data);
+        else
+            printf("->(%d)", last->data);
+        last = last->prev;
+        i += 1;
+    }
+    printf("->(NULL)\n");
+
+    // free memory, which we don't need anymore
+    free(first);
+    free(last);
+}
 
 
 void test_DataList(void) {
-	return;
-	/*DataList *dl = dl_init();
-
-	char c ;
-	DLIST_Integer el;
+	
+	DataList *dl = dl_init();
+	int *el = (int*)malloc(sizeof(int));
+	char c;
 	while(1){
 		dl_print(dl);
 		printf("\n");
@@ -26,30 +61,30 @@ void test_DataList(void) {
 		printf("dl_size:= %d \n", dl->size);
 		printf("enter option:  ");
 		scanf("%c", &c);
-        DLIST_Integer data = dlist_new_integer(rand() % 100);
+		int data = rand() % 100;
 		if (c == 'a') {
-			dl_push(dl, (void*)data);
+			dl_push(dl, data);
 		} else if (c == 'b') {
-			dl_pop(dl, (void**)&el);
-			printf("%d \n", el->value);
+			dl_pop(dl, el);
+			printf("%d \n", *el);
 		} else if (c == 'c') {
-			dl_peek(dl, (void**)&el);
-			printf("%d \n", el->value);
+			dl_peek(dl, el);
+			printf("%d \n", *el);
 		} else if (c == 'd') {
-			dl_enqueue(dl, (void*)data);
+			dl_enqueue(dl, data);
 		} else if (c == 'e') {
-			dl_dequeue(dl, (void**)&el);
-			printf("%d \n", el->value);
+			dl_dequeue(dl, el);
+			printf("%d \n", *el);
 		} else if (c == 'f') {
-			dl_first(dl, (void**)&el);
-			printf("%d", el->value);
+			dl_first(dl, el);
+			printf("%d", *el);
 		} else if (c == 'q'){
 			break;
 		}else{
 			// nothing to do
 		}
 
-	}*/
+	}
 }
 
 
