@@ -1,16 +1,16 @@
 /**
   ******************************************************************************
-  * @file    	DataList.h
+  * @file    	csmkdlist.h
   * @author		Claude Stephane M. Kouame
-  * @version 	V1.0
+  * @version 	V1.0.0
   * @date		Oct 10, 2021
   * @brief
   * feel free to use it as you wish ;-)
   ******************************************************************************
 */
 
-#ifndef DATALIST_H
-#define DATALIST_H
+#ifndef CSMKDLIST_H
+#define CSMKDLIST_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -31,7 +31,7 @@
     } DataList; \
 
 
-#include "DataListType.h"
+#include "data_list_type.h"
 
 DECLARE_LIST_ELEMENT_STRUCT(dl_type)
 DECLARE_DATALIST_STRUCT
@@ -227,4 +227,4 @@ void dl_print(DataList *dl);
     DEFINE_DL_FIRST_FUNCTION(dataType) \
 
 
-#endif /* DATALIST_H */
+#endif /* CSMKDLIST_H */

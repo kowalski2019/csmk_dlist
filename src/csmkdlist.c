@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file    	DataList.c
+  * @file    	csmkdlist.c
   * @author		Claude Stephane M. Kouame
   * @version 	V1.0
   * @date		Oct 10, 2021
@@ -9,7 +9,7 @@
   ******************************************************************************
 */
 
-#include "DataList.h"
+#include "csmkdlist.h"
 
 DataList *dl_init(void) {
     DataList *dl = (DataList *) malloc(sizeof(DataList));

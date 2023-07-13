@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file    	DataListType.h
+  * @file    	data_list_type.h
   * @author		Claude Stephane M. Kouame
   * @version 	V1.0
   * @date		Oct 10, 2021
