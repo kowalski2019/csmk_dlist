@@ -1,9 +1,9 @@
 /**
   ******************************************************************************
-  * @file    	csmkdlist.c
-  * @author		Claude Stephane M. Kouame
-  * @version 	V1.0
-  * @date		Oct 10, 2021
+  * @file     csmkdlist.c
+  * @author   Claude Stephane M. Kouame <claude.kouame@csmk59.de>
+  * @version  V1.0.0
+  * @date     Oct 10, 2021
   * @brief
   * feel free to use it as you wish ;-)
   ******************************************************************************

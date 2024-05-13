@@ -1,9 +1,9 @@
 /**
   ******************************************************************************
-  * @file    	csmkdlist.h
-  * @author		Claude Stephane M. Kouame
-  * @version 	V1.0.0
-  * @date		Oct 10, 2021
+  * @file     csmkdlist.h
+  * @author   Claude Stephane M. Kouame <claude.kouame@csmk59.de>
+  * @version  V1.0.0
+  * @date     Oct 10, 2021
   * @brief
   * feel free to use it as you wish ;-)
   ******************************************************************************
@@ -163,7 +163,7 @@ void dl_print(DataList *dl);
 
 
 //bool dl_pop(DataList *dl, int *el);
-#define DEFINE_DL_TOP_FUNCTION(dataType) \
+#define DEFINE_DL_POP_FUNCTION(dataType) \
     bool dl_pop(DataList *dl, dataType *el) { \
         if (dl->size == 0) { \
             return false; \
@@ -213,14 +213,14 @@ void dl_print(DataList *dl);
         return true; \
 }
 
-#define APPLY_DATATYPE(dataType) \
+#define DL_APPLY_ALL(dataType) \
     DEFINE_NEW_LIST_DATA_FUNCTION(dataType) \
     DEFINE_DL_GET_FUNCTION(dataType) \
     DEFINE_DL_APPEND_FUNCTION(dataType) \
     DEFINE_DL_FASTER_APPEND_FUNCTION(dataType) \
     DEFINE_DL_INSERT_FUNCTION(dataType) \
     DEFINE_DL_PUSH_FUNCTION(dataType) \
-    DEFINE_DL_TOP_FUNCTION(dataType) \
+    DEFINE_DL_POP_FUNCTION(dataType) \
     DEFINE_DL_PEEK_FUNCTION(dataType) \
     DEFINE_DL_ENQUEUE_FUNCTION(dataType) \
     DEFINE_DL_DEQUEUE_FUNCTION(dataType) \
