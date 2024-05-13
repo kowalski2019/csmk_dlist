@@ -15,10 +15,10 @@ install:	all
 		mkdir -p $(BUILD)/bin
 		cp test $(BUILD)/bin
 
-testbip:	test.o 
+test:	test.o 
 		$(CC) $(LDFLAGS) -o test test.o $(LDLIBS)
 
-testbip.o:	test.c
+test.o:	test.c
 		$(CC) $(CFLAGS) -o test.o -c test.c
 
 clean:

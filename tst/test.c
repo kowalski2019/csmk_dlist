@@ -4,11 +4,11 @@
 
 #define dl_type int
 
-#include "dlist_type.h"
+#include <dlist_type.h>
 
-#include "csmkdlist.h"
+#include <csmkdlist.h>
 
-APPLY_DATATYPE(int)
+DL_APPLY_ALL(dl_type)
 
 void dl_print(DataList *dl) {
     ListElement *first = dl->first;
