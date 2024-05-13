@@ -5,6 +5,8 @@ build/*
 *.sh
 test
 *.o
+src/*.o
+src/*.a
 *.a
 *.s
 tst/test
