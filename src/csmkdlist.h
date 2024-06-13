@@ -4,6 +4,7 @@
   * @author   Claude Stephane M. Kouame <claude.kouame@csmk59.de>
   * @version  V1.0.0
   * @date     Oct 10, 2021
+  * @ref      https://github.com/kowalski2019/csmk_dlist
   * @brief
   * feel free to use it as you wish ;-)
   ******************************************************************************
