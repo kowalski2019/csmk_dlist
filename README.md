@@ -54,5 +54,5 @@ int main() {
 
 ## Compile your C-code
 ```
-gcc -std=c11 -g -Wall -I../build/include -L../build/lib -o code code.c -lcsmkdlist
+gcc -std=c11 -g -Wall -pedantic -I ./build/include -L ./build/lib -o code code.c -lcsmkdlist
 ```
