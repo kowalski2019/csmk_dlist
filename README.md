@@ -56,3 +56,23 @@ int main() {
 ```
 gcc -std=c11 -g -Wall -pedantic -I ./build/include -L ./build/lib -o code code.c -lcsmkdlist
 ```
+
+# How to use the dlist Library with a CMakeList.txt project?
+``
+...
+
+set(DLIST_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/csmk_dlist/build/include")
+set(DLIST_LIB_DIR "${CMAKE_SOURCE_DIR}/csmk_dlist/build/lib")
+set(DLIST_LIB "-lcsmkdlist")
+include_directories(${DLIST_INCLUDE_DIR})
+
+link_directories(${DLIST_LIB_DIR})
+
+...
+
+target_link_libraries(excutable ${DLIST_LIB})
+
+...
+
+```
+
