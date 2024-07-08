@@ -58,7 +58,7 @@ gcc -std=c11 -g -Wall -pedantic -I ./build/include -L ./build/lib -o code code.c
 ```
 
 # How to use the dlist Library with a CMakeList.txt project?
-``
+```
 ...
 
 set(DLIST_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/csmk_dlist/build/include")
