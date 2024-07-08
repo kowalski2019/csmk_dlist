@@ -51,10 +51,10 @@ void test_DataList(void) {
 		dl_print(dl);
 		printf("\n");
 		printf("a: in order to push an element\n");
-		printf("b: in order to pop an element\n");
-		printf("c: in order to see the elment on the top\n");
-		printf("d: in order to enqueue an element\n");
-		printf("e: in order to dequeue an element\n");
+		printf("p: in order to pop an element\n");
+		printf("t: in order to see the elment on the top\n");
+		printf("e: in order to enqueue an element\n");
+		printf("d: in order to dequeue an element\n");
 		printf("f: in order to see the first element\n");
 		printf("q: to quit!\n");
 
@@ -64,15 +64,15 @@ void test_DataList(void) {
 		int data = rand() % 100;
 		if (c == 'a') {
 			dl_push(dl, data);
-		} else if (c == 'b') {
+		} else if (c == 'p') {
 			dl_pop(dl, el);
 			printf("%d \n", *el);
-		} else if (c == 'c') {
+		} else if (c == 't') {
 			dl_peek(dl, el);
 			printf("%d \n", *el);
-		} else if (c == 'd') {
-			dl_enqueue(dl, data);
 		} else if (c == 'e') {
+			dl_enqueue(dl, data);
+		} else if (c == 'd') {
 			dl_dequeue(dl, el);
 			printf("%d \n", *el);
 		} else if (c == 'f') {
