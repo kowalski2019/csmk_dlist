@@ -169,7 +169,7 @@ void dl_print(DataList *dl);
         if (dl->size == 0) { \
             return false; \
         } \
-        dl_get(dl->first, dl->size - 1, el); \
+        *el = dl->last->data; \
         dl_remove_at(dl, dl->size - 1); \
         return true; \
 }
@@ -199,8 +199,7 @@ void dl_print(DataList *dl);
         if (dl->size == 0) { \
             return false; \
         } \
-        *el = dl->first->data; \
-        dl_remove_at(dl, 0); \
+        dl_pop(dl, el); \
         return true; \
 }
 
